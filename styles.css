@@ -5,72 +5,135 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-.primary-color{
+.primary-color {
   color: #ff42a5;
   font-size: 45px;
   font-weight: 700;
 }
-.secondary-color{
+
+.secondary-color {
   color: #0B0223;
   font-size: 45px;
   font-weight: 700;
 }
-.gamer{
+
+.gamer {
   width: 86.041px;
   height: 40px;
 
 }
+
 .header {
   display: flex;
   align-items: center;
   padding-left: 200px;
 }
-.container{
+
+.container {
   display: flex;
 }
-.description{
+
+.description {
   text-decoration: none;
   color: #3C354F;
   text-align: center;
   font-size: 18px;
   font-weight: 500;
- 
+
 }
-.menu-bar > ul{
+
+.menu-bar>ul {
   display: flex;
   list-style: none;
   gap: 30px;
-  margin: 55px 30px 55px 30px ;
+  margin: 55px 30px 55px 30px;
 }
-nav  li, a{
+
+nav li,
+a {
   text-decoration: none;
 }
-.follow >ul{
+
+.follow>ul {
   display: flex;
   list-style: none;
   align-items: center;
   justify-content: space-around;
   gap: 10px;
 }
-.heading-bar{
+
+.heading-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
 }
-.follow{
+
+.follow {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.10);
-  margin: 37px 150px 37px 30px ;
+  margin: 37px 150px 37px 30px;
   padding-right: 20px;
 }
-.follow-us{
+
+.follow-us {
   color: #3C354F;
   text-align: center;
   font-size: 18px;
   font-weight: 500;
 }
-nav{
+
+nav {
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* main section */
+/* Play like the goat section */
+.play-img {
+  width: 15px;
+  height: 15px;
+  padding-right: 12px;
+}
+
+.button1 {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0px;
+}
+
+.button2 {
+  border-radius: 48px;
+  background: #4EC5F7;
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 0px;
+}
+
+.group-players {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.play-like-goat{
+  background-image: url(./images/Group\ 14.png);
+padding: 240px;
+  fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
