@@ -322,12 +322,42 @@ nav {
   height: 821px;
 }
 
+
+/* icon and button section */
+.action-games {
+  height: 427px;
+  flex-shrink: 0;
+}
+
+.iconic-img {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  row-gap: 80px;
+  column-gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-img {
+  border: 1px solid rgb(254, 1, 208);
+  color: #0B0223;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  border-radius: 50px;
+  width: 243px;
+  height: 70px;
+}
+
 /* footer section */
 .footer-container {
   background: #0B0223;
- 
-height: 636px;
-flex-shrink: 0;
+
+  height: 636px;
+  flex-shrink: 0;
 }
 
 .gamer1 {
@@ -372,7 +402,8 @@ flex-shrink: 0;
   gap: 60px;
   margin-top: 30px;
 }
-.terms-con{
+
+.terms-con {
   display: flex;
   justify-content: center;
   margin-top: 30px;
