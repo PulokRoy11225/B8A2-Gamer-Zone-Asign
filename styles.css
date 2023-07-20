@@ -195,6 +195,7 @@ nav {
 }
 
 .ogfv {
+  margin-left: 450px;
   color: #0B0223;
   text-align: center;
   font-size: 48px;
@@ -202,6 +203,7 @@ nav {
 }
 
 .online-gdes {
+  margin-left: 480px;
   color: #534C64;
   text-align: center;
   font-size: 18px;
@@ -411,3 +413,53 @@ nav {
   margin-bottom: 30px;
   color: rgba(255, 255, 255, 0.60);
 }
+
+/* responsive styles and media query */
+/* for mobile devices */
+@media screen and (max-width:576px) {
+  .heading-bar,
+  .menu-bar,
+  .container,
+  .group-img,
+  .pink-container,
+  .play-sec3,
+  .action-games,
+  .footer-container,
+  .we-are-gamer
+  {
+    flex-direction: column;
+  }
+  .menu-bar{
+    margin-left: 280px;
+  }
+  .follow{
+    margin-left: 350px;
+  }
+ .group-players{
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+ }
+ .gamer-container{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: stretch;
+ justify-content: center;
+ align-content: center;
+ }
+ }
+.ogfv,
+.online-gdes{
+  display: flex;
+  flex-direction: row;
+align-items: center;
+}
+.pink-container > .pink-para-desc1{
+  width: 100%;
+}
+
+/* for tab */
+@media screen and (min-width:576px) and (max-width:960px) {}
